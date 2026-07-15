@@ -1,4 +1,4 @@
-package legendary138.enhancedendgame.platform.services;
+package legendary138.enhancedendgame.services.services;
 
 public interface IPlatformHelper {
 

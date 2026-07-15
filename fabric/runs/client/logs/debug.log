@@ -1085,7 +1085,7 @@
 [21:59:38] [Render thread/DEBUG] (FabricLoader/Mixin) Mixing FileToIdConverterAccessor from fabric-loot-api-v3.mixins.json into net.minecraft.resources.FileToIdConverter
 [21:59:38] [Render thread/DEBUG] (FabricLoader/Mixin) Mixing FileToIdConverterAccessor from fabric-resource-conditions-api-v1.mixins.json into net.minecraft.resources.FileToIdConverter
 [21:59:38] [Render thread/INFO] (Enhanced Endgame) Hello Fabric world!
-[21:59:38] [Render thread/DEBUG] (Enhanced Endgame) Loaded legendary138.enhancedendgame.platform.FabricPlatformHelper@775c6e12 for service interface legendary138.enhancedendgame.platform.services.IPlatformHelper
+[21:59:38] [Render thread/DEBUG] (Enhanced Endgame) Loaded legendary138.enhancedendgame.services.FabricPlatformHelper@775c6e12 for service interface legendary138.enhancedendgame.services.services.IPlatformHelper
 [21:59:38] [Render thread/INFO] (Enhanced Endgame) Hello from Common init on Fabric! we are currently in a development environment!
 [21:59:38] [Render thread/INFO] (Enhanced Endgame) The ID for diamonds is minecraft:diamond
 [21:59:38] [Render thread/DEBUG] (FabricLoader/Entrypoint) Iterating over entrypoint 'client'

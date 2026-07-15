@@ -1,6 +1,6 @@
 package legendary138.enhancedendgame;
 
-import legendary138.enhancedendgame.platform.Services;
+import legendary138.enhancedendgame.services.Services;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.item.Items;
 

@@ -1,7 +1,7 @@
-package legendary138.enhancedendgame.platform;
+package legendary138.enhancedendgame.services;
 
 import legendary138.enhancedendgame.Constants;
-import legendary138.enhancedendgame.platform.services.IPlatformHelper;
+import legendary138.enhancedendgame.services.services.IPlatformHelper;
 
 import java.util.ServiceLoader;
 
