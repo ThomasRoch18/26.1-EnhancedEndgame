@@ -1,6 +1,7 @@
 package legendary138.enhancedendgame;
 
 
+import legendary138.enhancedendgame.services.NeoForgeRegistryHelper;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
 
@@ -16,6 +17,6 @@ public class EnhancedEndgame {
         // Use NeoForge to bootstrap the Common mod.
         Constants.LOG.info("Hello NeoForge world!");
         CommonClass.init();
-
+        NeoForgeRegistryHelper.register(eventBus);
     }
 }

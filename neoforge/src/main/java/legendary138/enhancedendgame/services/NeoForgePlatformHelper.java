@@ -1,6 +1,6 @@
 package legendary138.enhancedendgame.services;
 
-import legendary138.enhancedendgame.services.services.IPlatformHelper;
+import legendary138.enhancedendgame.services.types.IPlatformHelper;
 import net.neoforged.fml.ModList;
 import net.neoforged.fml.loading.FMLLoader;
 
