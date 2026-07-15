@@ -1,0 +1,11 @@
+/give @s enhancedendgame:endirium_ingot
+/give @a enhancedendgame:endirium_upgrade_smithing_template
+/give Dev enhancedendgame:endirium_upgrade_smithing_template
+/give @a
+/give @a enhancedendgame:endirium_ore
+/time set minecraft:day
+/give @a enhancedendgame:endirium_ingot
+/give @a enhancedendgame:endirium_upgrade_smithing_template
+/give @a enhancedendgame:endirium_ore
+/give Dev enhancedendgame:endirium_ore
+/gamemode survival
