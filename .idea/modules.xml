@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/26.1-EnhancedEndgame.common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/26.1-EnhancedEndgame.common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/26.1-EnhancedEndgame.fabric.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/26.1-EnhancedEndgame.fabric.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/26.1-EnhancedEndgame.fabric.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/26.1-EnhancedEndgame.fabric.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/neoforge/26.1-EnhancedEndgame.neoforge.main.iml" filepath="$PROJECT_DIR$/.idea/modules/neoforge/26.1-EnhancedEndgame.neoforge.main.iml" />
+    </modules>
+  </component>
+</project>
