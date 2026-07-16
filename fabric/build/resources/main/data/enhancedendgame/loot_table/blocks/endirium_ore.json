@@ -10,12 +10,12 @@
       ],
       "entries": [
         {
-          "type": ":minecraft:item",
+          "type": "minecraft:item",
           "name": "enhancedendgame:endirium_ore"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "testmod:blocks/example_block"
+  "random_sequence": "enhancedendgame:blocks/endirium_ore"
 }

@@ -1,6 +1,7 @@
 package legendary138.enhancedendgame;
 
 import legendary138.enhancedendgame.init.ModBlocks;
+import legendary138.enhancedendgame.init.ModCreativeTabs;
 import legendary138.enhancedendgame.init.ModItems;
 import legendary138.enhancedendgame.services.Services;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -32,5 +33,6 @@ public class CommonClass {
 
         ModItems.load();
         ModBlocks.load();
+        ModCreativeTabs.load();
     }
 }

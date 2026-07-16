@@ -3,26 +3,37 @@ package legendary138.enhancedendgame.services;
 import legendary138.enhancedendgame.Constants;
 import legendary138.enhancedendgame.services.types.IRegistryHelper;
 import legendary138.enhancedendgame.services.util.RegistryHandle;
+import net.minecraft.core.Registry;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.network.chat.Component;
 import net.minecraft.resources.Identifier;
 import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
+import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 import java.util.function.BiFunction;
+import java.util.function.Consumer;
 import java.util.function.Function;
+import java.util.function.Supplier;
 
 public class NeoForgeRegistryHelper implements IRegistryHelper {
     private static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(Constants.MOD_ID);
     private static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(Constants.MOD_ID);
+    private static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, Constants.MOD_ID);
 
     public static void register(IEventBus eventBus) {
         BLOCKS.register(eventBus);
         ITEMS.register(eventBus);
+        CREATIVE_MODE_TABS.register(eventBus);
     }
 
     @Override
@@ -62,6 +73,28 @@ public class NeoForgeRegistryHelper implements IRegistryHelper {
             @Override
             public Identifier id() {
                 return id;
+            }
+        };
+    }
+
+    @Override
+    public RegistryHandle<CreativeModeTab> registerCreativeTab(String name, String translationKey, Supplier<ItemStack> icon, Consumer<CreativeTabOutput> entries) {
+        Identifier id = Constants.id(name);
+        DeferredHolder<CreativeModeTab, CreativeModeTab> deferredTab = CREATIVE_MODE_TABS.register(name,
+                () -> CreativeModeTab.builder()
+                        .title(Component.translatable(translationKey))
+                        .icon(icon)
+                        .displayItems((_, output) -> entries.accept(output::accept))
+                        .build());
+        return new RegistryHandle<CreativeModeTab>() {
+            @Override
+            public Identifier id() {
+                return id;
+            }
+
+            @Override
+            public CreativeModeTab get() {
+                return deferredTab.get();
             }
         };
     }
