@@ -1,3 +1,11 @@
+# Enhanced Endgame Minecraft Mod
+
+This mod was developed to enhance the endgame of Minecraft, and gives a successor to Netherite, called Endirium. This was developed using the MultiLoader Template by jaredlll08 on Github: 
+- https://github.com/jaredlll08/MultiLoader-Template
+
+
+The description for the template is given below:
+
 # MultiLoader Template
 
 This project provides a Gradle project template that can compile Minecraft mods for multiple modloaders using a common project for the sources. This project does not require any third party libraries or dependencies. If you have any questions or want to discuss the project, please join our [Discord](https://discord.myceliummod.network).
