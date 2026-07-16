@@ -1,10 +1,10 @@
 package legendary138.enhancedendgame.services;
 
+import com.mojang.serialization.MapCodec;
 import legendary138.enhancedendgame.Constants;
+import legendary138.enhancedendgame.loot.AddItemModifier;
 import legendary138.enhancedendgame.services.types.IRegistryHelper;
 import legendary138.enhancedendgame.services.util.RegistryHandle;
-import net.minecraft.core.Registry;
-import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.Identifier;
@@ -15,10 +15,8 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.bus.api.IEventBus;
-import net.neoforged.neoforge.registries.DeferredBlock;
-import net.neoforged.neoforge.registries.DeferredHolder;
-import net.neoforged.neoforge.registries.DeferredItem;
-import net.neoforged.neoforge.registries.DeferredRegister;
+import net.neoforged.neoforge.common.loot.IGlobalLootModifier;
+import net.neoforged.neoforge.registries.*;
 
 import java.util.function.BiFunction;
 import java.util.function.Consumer;
@@ -27,13 +25,32 @@ import java.util.function.Supplier;
 
 public class NeoForgeRegistryHelper implements IRegistryHelper {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(Constants.MOD_ID);
+
     private static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(Constants.MOD_ID);
+
     private static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, Constants.MOD_ID);
+
+    private static final DeferredRegister<
+            MapCodec<? extends IGlobalLootModifier>
+            > LOOT_MODIFIER_SERIALIZERS =
+            DeferredRegister.create(
+                    NeoForgeRegistries.Keys.GLOBAL_LOOT_MODIFIER_SERIALIZERS,
+                    Constants.MOD_ID
+            );
+
+    public static final DeferredHolder<
+            MapCodec<? extends IGlobalLootModifier>,
+            MapCodec<AddItemModifier>> ADD_ITEM_LOOT_MODIFIER =
+            LOOT_MODIFIER_SERIALIZERS.register(
+                    "add_item",
+                    () -> AddItemModifier.CODEC
+            );
 
     public static void register(IEventBus eventBus) {
         BLOCKS.register(eventBus);
         ITEMS.register(eventBus);
         CREATIVE_MODE_TABS.register(eventBus);
+        LOOT_MODIFIER_SERIALIZERS.register(eventBus);
     }
 
     @Override

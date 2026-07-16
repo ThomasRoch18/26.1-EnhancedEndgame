@@ -13,4 +13,6 @@ public final class ModBlocks {
 
     public static final RegistryHandle<Block> ENDIRIUM_ORE = Services.REGISTRY.registerBlock("endirium_ore",
             properties -> new Block(properties.strength(40.0F, 1200).requiresCorrectToolForDrops()));
+    public static final RegistryHandle<Block> ENDIRIUM_BLOCK = Services.REGISTRY.registerBlock("endirium_block",
+            properties -> new Block(properties.strength(40.0F, 1200).requiresCorrectToolForDrops()));
 }

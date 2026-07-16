@@ -10,3 +10,20 @@
 /give Dev enhancedendgame:endirium_ore
 /gamemode survival
 /gamemode creative
+/gamerule advance_time false
+/time set minecraft:day
+/give Dev minecraft:end_portal_frame
+/locate structure minecraft:stronghold
+/effect give Dev minecraft:strength infinite 255 true
+/tp @s -304 ~ -1728
+/locate structure minecraft:end_city
+/tp @s -1888 ~ 736
+/tp @s -304 ~ -1728
+/tp @s -1888 ~ 736
+/setblock ~ ~1 ~ minecraft:chest{LootTable:"minecraft:chests/end_city_treasure"}
+/setblock ~1 ~ ~ minecraft:chest{LootTable:"minecraft:chests/end_city_treasure"}
+/setblock ~ ~1 ~ minecraft:chest{LootTable:"minecraft:chests/end_city_treasure"}
+/loot give Dev loot minecraft:chests/end_city_treasure
+/tp Dev 0 ~ 0
+/weather clear
+/loot give @s loot minecraft:chests/end_city_treasure

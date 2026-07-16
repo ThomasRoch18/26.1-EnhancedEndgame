@@ -14,7 +14,7 @@ public final class ModCreativeTabs {
     private ModCreativeTabs() {
     }
 
-    public static final RegistryHandle<CreativeModeTab> enhancedEndgameTab = Services.REGISTRY.registerCreativeTab(
+    public static final RegistryHandle<CreativeModeTab> ENHANCED_ENDGAME_TAB = Services.REGISTRY.registerCreativeTab(
             "enhanced_endgame", "itemGroup." + Constants.MOD_ID + ".enhanced_endgame",
             () -> new ItemStack(ModItems.ENDIRIUM_INGOT.get()),
             output -> BuiltInRegistries.ITEM.entrySet().stream()

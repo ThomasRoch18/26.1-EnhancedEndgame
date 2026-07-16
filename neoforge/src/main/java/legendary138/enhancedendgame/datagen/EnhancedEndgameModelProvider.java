@@ -18,7 +18,9 @@ public class EnhancedEndgameModelProvider extends ModelProvider {
     protected void registerModels(BlockModelGenerators blockModels, ItemModelGenerators itemModels) {
         itemModels.generateFlatItem(ModItems.ENDIRIUM_INGOT.get(), ModelTemplates.FLAT_ITEM);
         itemModels.generateFlatItem(ModItems.ENDIRIUM_UPGRADE_SMITHING_TEMPLATE.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(ModItems.ENDIRIUM_NUGGET.get(), ModelTemplates.FLAT_ITEM);
 
         blockModels.createTrivialCube(ModBlocks.ENDIRIUM_ORE.get());
+        blockModels.createTrivialCube(ModBlocks.ENDIRIUM_BLOCK.get());
     }
 }

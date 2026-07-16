@@ -2,10 +2,12 @@ package legendary138.enhancedendgame.datagen;
 
 import legendary138.enhancedendgame.Constants;
 import legendary138.enhancedendgame.init.ModBlocks;
+import legendary138.enhancedendgame.init.ModCreativeTabs;
 import legendary138.enhancedendgame.init.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.contents.TranslatableContents;
+import net.neoforged.fml.common.Mod;
 import net.neoforged.neoforge.common.data.LanguageProvider;
 
 public class EnhancedEndgameEnglishLanguageProvider extends LanguageProvider {
@@ -18,8 +20,13 @@ public class EnhancedEndgameEnglishLanguageProvider extends LanguageProvider {
         add(ModItems.ENDIRIUM_INGOT.get(), "Endirium Ingot");
         add(ModItems.ENDIRIUM_UPGRADE_SMITHING_TEMPLATE.get(), "Endirium Upgrade");
         add(ModItems.ENDIRIUM_ORE_ITEM.get(), "Endirium Ore");
+        add(ModItems.ENDIRIUM_BLOCK_ITEM.get(), "Endirium Block");
+        add(ModItems.ENDIRIUM_NUGGET.get(), "Endirium Nugget");
 
         add(ModBlocks.ENDIRIUM_ORE.get(), "Endirium Ore");
+        add(ModBlocks.ENDIRIUM_BLOCK.get(), "Endirium Block");
+
+        add(ModCreativeTabs.ENHANCED_ENDGAME_TAB.get().getDisplayName(), ("Enhanced Endgame"));
     }
 
     private void add(Component component, String value) {

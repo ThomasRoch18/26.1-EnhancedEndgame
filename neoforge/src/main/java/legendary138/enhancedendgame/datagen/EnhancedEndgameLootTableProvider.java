@@ -35,12 +35,13 @@ public class EnhancedEndgameLootTableProvider extends LootTableProvider {
     private static final class EnhancedEndgameBlockLootProvider extends BlockLootSubProvider {
 
         EnhancedEndgameBlockLootProvider(HolderLookup.Provider registries) {
-            super(Set.of(ModItems.ENDIRIUM_ORE_ITEM.get()), FeatureFlags.DEFAULT_FLAGS, registries);
+            super(Set.of(ModItems.ENDIRIUM_ORE_ITEM.get(), ModItems.ENDIRIUM_BLOCK_ITEM.get()), FeatureFlags.DEFAULT_FLAGS, registries);
         }
 
         @Override
         protected void generate() {
             dropSelf(ModBlocks.ENDIRIUM_ORE.get());
+            dropSelf(ModBlocks.ENDIRIUM_BLOCK.get());
         }
 
         @Override

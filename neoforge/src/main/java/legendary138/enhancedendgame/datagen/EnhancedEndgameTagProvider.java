@@ -19,8 +19,10 @@ public class EnhancedEndgameTagProvider extends BlockTagsProvider {
     protected void addTags(HolderLookup.Provider provider) {
         // Chainable, i.e. can put .add(...) over and over
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
-                .add(ModBlocks.ENDIRIUM_ORE.get());
+                .add(ModBlocks.ENDIRIUM_ORE.get())
+                .add(ModBlocks.ENDIRIUM_BLOCK.get());
         tag(BlockTags.INCORRECT_FOR_DIAMOND_TOOL)
-                .add(ModBlocks.ENDIRIUM_ORE.get());
+                .add(ModBlocks.ENDIRIUM_ORE.get())
+                .add(ModBlocks.ENDIRIUM_BLOCK.get());
     }
 }

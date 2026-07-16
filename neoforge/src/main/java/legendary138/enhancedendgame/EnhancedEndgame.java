@@ -18,6 +18,7 @@ public class EnhancedEndgame {
         Constants.LOG.info("Hello NeoForge world!");
         CommonClass.init();
         eventBus.addListener(EnhancedEndgameDatagen::onGatherClientData);
+        eventBus.addListener(EnhancedEndgameDatagen::onGatherServerData);
         NeoForgeRegistryHelper.register(eventBus);
     }
 }

@@ -27,6 +27,21 @@ neoForge {
                     '--output', rootProject.project(':common').file('src/generated/resources/').getAbsolutePath(),
                     '--existing', rootProject.project(':common').file('src/main/resources/').getAbsolutePath()
         }
+        neoForgeData {
+            serverData()
+            gameDirectory = this.mkdir(this.file("runs/neoforge-data"))
+
+            programArguments.addAll(
+                    '--mod', project.mod_id,
+                    '--all',
+                    '--output',
+                    project.file('src/generated/resources/')
+                            .getAbsolutePath(),
+                    '--existing',
+                    project.file('src/main/resources/')
+                            .getAbsolutePath()
+            )
+        }
         server {
             server()
             this.file("runs/server").createParentDirectories()
@@ -48,6 +63,9 @@ def loaderAttribute = Attribute.of('io.github.mcgradleconventions.loader', Strin
             attribute(loaderAttribute, 'neoforge')
         }
     }
+}
+sourceSets.named('main') {
+    resources.srcDir('src/generated/resources')
 }
 sourceSets.configureEach {
     [it.compileClasspathConfigurationName, it.runtimeClasspathConfigurationName, it.getTaskName(null, 'jarJar')].each { variant ->
