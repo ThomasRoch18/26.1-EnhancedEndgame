@@ -1,23 +1,23 @@
 {
   "stats": {
-    "minecraft:mined": {
-      "enhancedendgame:endirium_ore": 5
+    "minecraft:used": {
+      "minecraft:diamond_pickaxe": 3,
+      "minecraft:netherite_pickaxe": 4,
+      "enhancedendgame:endirium_ore": 12
     },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 40520,
-      "minecraft:walk_one_cm": 6663,
-      "minecraft:total_world_time": 37751,
-      "minecraft:leave_game": 12,
-      "minecraft:play_time": 20260,
-      "minecraft:time_since_death": 20260
+      "minecraft:time_since_rest": 42828,
+      "minecraft:walk_one_cm": 6879,
+      "minecraft:total_world_time": 38917,
+      "minecraft:leave_game": 13,
+      "minecraft:play_time": 21414,
+      "minecraft:time_since_death": 21414
+    },
+    "minecraft:mined": {
+      "enhancedendgame:endirium_ore": 6
     },
     "minecraft:picked_up": {
-      "enhancedendgame:endirium_ore": 2
-    },
-    "minecraft:used": {
-      "minecraft:diamond_pickaxe": 2,
-      "minecraft:netherite_pickaxe": 3,
-      "enhancedendgame:endirium_ore": 10
+      "enhancedendgame:endirium_ore": 3
     }
   },
   "DataVersion": 4786

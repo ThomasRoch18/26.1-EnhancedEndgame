@@ -1,0 +1,16 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "enhancedendgame:endirium_ore": 2
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 1188,
+      "minecraft:walk_one_cm": 1086,
+      "minecraft:total_world_time": 1277,
+      "minecraft:leave_game": 1,
+      "minecraft:play_time": 1188,
+      "minecraft:time_since_death": 1188
+    }
+  },
+  "DataVersion": 4786
+}

@@ -9,3 +9,4 @@
 /give @a enhancedendgame:endirium_ore
 /give Dev enhancedendgame:endirium_ore
 /gamemode survival
+/gamemode creative

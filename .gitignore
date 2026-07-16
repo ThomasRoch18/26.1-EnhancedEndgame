@@ -9,3 +9,4 @@
 /fabric/.gradle/
 /neoforge/build/
 /neoforge/build/classes/java/main/
+.cache

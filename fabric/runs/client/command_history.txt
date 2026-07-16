@@ -2,3 +2,4 @@
 /give Player716 enhancedendgame:endirium_upgrade_smithing_template
 /give Player716 enhancedendgame:endirium_ingot
 /give Player716 enhancedendgame:endirium_ore
+/gamemode survival
