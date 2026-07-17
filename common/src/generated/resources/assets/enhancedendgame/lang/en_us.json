@@ -12,5 +12,9 @@
   "item.enhancedendgame.endirium_spear": "Endirium Spear",
   "item.enhancedendgame.endirium_sword": "Endirium Sword",
   "item.enhancedendgame.endirium_upgrade_smithing_template": "Endirium Upgrade",
+  "item.enhancedendgame.endirium_upgrade_smithing_template.addition_slot_description": "Add Endirium Ingot",
+  "item.enhancedendgame.endirium_upgrade_smithing_template.applies_to": "Netherite Equipment",
+  "item.enhancedendgame.endirium_upgrade_smithing_template.base_slot_description": "Add Netherite armor, weapon, or tool",
+  "item.enhancedendgame.endirium_upgrade_smithing_template.ingredients": "Endirium Ingot",
   "itemGroup.enhancedendgame.enhanced_endgame": "Enhanced Endgame"
 }

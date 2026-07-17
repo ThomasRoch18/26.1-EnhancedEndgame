@@ -647,5 +647,71 @@
     },
     "done": true
   },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2026-07-17 11:17:10 -0400"
+    },
+    "done": true
+  },
+  "minecraft:nether/create_beacon": {
+    "criteria": {
+      "beacon": "2026-07-17 12:07:32 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/endirium_shovel_recipe": {
+    "criteria": {
+      "has_template_smithing": "2026-07-17 12:04:51 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/endirium_pickaxe_recipe": {
+    "criteria": {
+      "has_template_smithing": "2026-07-17 12:04:51 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/endirium_sword_recipe": {
+    "criteria": {
+      "has_template_smithing": "2026-07-17 12:04:51 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/endirium_axe_recipe": {
+    "criteria": {
+      "has_template_smithing": "2026-07-17 12:04:51 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/endirium_hoe_recipe": {
+    "criteria": {
+      "has_template_smithing": "2026-07-17 12:04:51 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2026-07-17 12:07:26 -0400"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/obtain_netherite_hoe": {
+    "criteria": {
+      "netherite_hoe": "2026-07-17 12:05:14 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/endirium_spear_recipe": {
+    "criteria": {
+      "has_template_smithing": "2026-07-17 12:04:51 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2026-07-17 12:07:26 -0400"
+    },
+    "done": true
+  },
   "DataVersion": 4786
 }

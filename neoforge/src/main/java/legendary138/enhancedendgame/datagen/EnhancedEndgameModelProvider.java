@@ -25,7 +25,6 @@ public class EnhancedEndgameModelProvider extends ModelProvider {
         itemModels.generateFlatItem(ModItems.ENDIRIUM_SHOVEL.get(), ModelTemplates.FLAT_HANDHELD_ITEM);
         itemModels.generateFlatItem(ModItems.ENDIRIUM_AXE.get(), ModelTemplates.FLAT_HANDHELD_ITEM);
         itemModels.generateFlatItem(ModItems.ENDIRIUM_HOE.get(), ModelTemplates.FLAT_HANDHELD_ITEM);
-        // itemModels.generateFlatItem(ModItems.ENDIRIUM_SPEAR.get(), ModelTemplates.FLAT_HANDHELD_ITEM);
         itemModels.generateSpear(ModItems.ENDIRIUM_SPEAR.get());
 
         blockModels.createTrivialCube(ModBlocks.ENDIRIUM_ORE.get());

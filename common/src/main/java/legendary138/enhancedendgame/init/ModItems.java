@@ -18,8 +18,8 @@ public class ModItems {
 
     public static final RegistryHandle<Item> ENDIRIUM_INGOT = Services.REGISTRY.registerItem("endirium_ingot",
             properties -> new Item(properties.stacksTo(64).fireResistant()));
-    public static final RegistryHandle<Item> ENDIRIUM_UPGRADE_SMITHING_TEMPLATE = Services.REGISTRY.registerItem("endirium_upgrade_smithing_template",
-            properties -> new Item(properties.stacksTo(64).rarity(Rarity.UNCOMMON)));
+    public static final RegistryHandle<SmithingTemplateItem> ENDIRIUM_UPGRADE_SMITHING_TEMPLATE = Services.REGISTRY.registerItem("endirium_upgrade_smithing_template",
+            ModSmithingTemplates::createEndiriumUpgrade);
     public static final RegistryHandle<Item> ENDIRIUM_NUGGET = Services.REGISTRY.registerItem("endirium_nugget",
             properties -> new Item(properties.stacksTo(64).fireResistant()));
 

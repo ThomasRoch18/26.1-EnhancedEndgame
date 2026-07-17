@@ -18,7 +18,28 @@ public class EnhancedEndgameEnglishLanguageProvider extends LanguageProvider {
     @Override
     protected void addTranslations() {
         add(ModItems.ENDIRIUM_INGOT.get(), "Endirium Ingot");
+
         add(ModItems.ENDIRIUM_UPGRADE_SMITHING_TEMPLATE.get(), "Endirium Upgrade");
+        add(
+                "item.enhancedendgame.endirium_upgrade_smithing_template.applies_to",
+                "Netherite Equipment"
+        );
+
+        add(
+                "item.enhancedendgame.endirium_upgrade_smithing_template.ingredients",
+                "Endirium Ingot"
+        );
+
+        add(
+                "item.enhancedendgame.endirium_upgrade_smithing_template.base_slot_description",
+                "Add Netherite armor, weapon, or tool"
+        );
+
+        add(
+                "item.enhancedendgame.endirium_upgrade_smithing_template.addition_slot_description",
+                "Add Endirium Ingot"
+        );
+
         add(ModItems.ENDIRIUM_ORE_ITEM.get(), "Endirium Ore");
         add(ModItems.ENDIRIUM_BLOCK_ITEM.get(), "Endirium Block");
         add(ModItems.ENDIRIUM_NUGGET.get(), "Endirium Nugget");

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "enhancedendgame:endirium_ingot",
+  "base": "minecraft:netherite_hoe",
+  "result": {
+    "id": "enhancedendgame:endirium_hoe"
+  },
+  "template": "enhancedendgame:endirium_upgrade_smithing_template"
+}

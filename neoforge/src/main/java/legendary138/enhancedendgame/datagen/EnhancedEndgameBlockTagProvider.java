@@ -23,5 +23,7 @@ public class EnhancedEndgameBlockTagProvider extends BlockTagsProvider {
         tag(BlockTags.INCORRECT_FOR_DIAMOND_TOOL)
                 .add(ModBlocks.ENDIRIUM_ORE.get())
                 .add(ModBlocks.ENDIRIUM_BLOCK.get());
+        tag(BlockTags.BEACON_BASE_BLOCKS)
+                .add(ModBlocks.ENDIRIUM_BLOCK.get());
     }
 }
