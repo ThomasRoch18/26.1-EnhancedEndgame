@@ -3,3 +3,5 @@
 /give Player716 enhancedendgame:endirium_ingot
 /give Player716 enhancedendgame:endirium_ore
 /gamemode survival
+/loot give Player954 loot minecraft:chests/end_city_treasure
+/loot give Player920 loot minecraft:chests/end_city_treasure

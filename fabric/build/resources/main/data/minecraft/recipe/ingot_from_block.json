@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "endirium_ingot",
+  "ingredients": [
+    "enhancedendgame:endirium_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "enhancedendgame:endirium_ingot"
+  }
+}

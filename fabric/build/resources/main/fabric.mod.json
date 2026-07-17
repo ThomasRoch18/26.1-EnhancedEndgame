@@ -1,0 +1,25 @@
+{
+    "schemaVersion": 1,
+    "id": "enhancedendgame",
+    "version": "0.1.0",
+    "name": "Enhanced Endgame",
+    "description": "Adds Features for the Endgame. \\nAccepts multilines.",
+    "authors": [
+        "Legendary138"
+    ],
+    "license": "CC0-1.0",
+    "icon": "enhancedendgame.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "legendary138.enhancedendgame.EnhancedEndgame"
+        ]
+    },
+    "depends": {
+        "fabricloader": ">=0.18.4",
+        "fabric-api": "*",
+        "minecraft": "~26.1",
+        "java": ">=25"
+    }
+}
+  

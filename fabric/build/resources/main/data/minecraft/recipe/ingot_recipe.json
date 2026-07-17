@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "endirium_ingot",
+  "key": {
+    "#": "enhancedendgame:endirium_nugget",
+    "M": "minecraft:netherite_ingot"
+  },
+  "pattern": [
+    "###",
+    "#M#",
+    "###"
+  ],
+  "result": {
+    "id": "enhancedendgame:endirium_ingot"
+  }
+}

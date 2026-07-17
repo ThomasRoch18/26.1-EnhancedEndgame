@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_custom_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "enhancedendgame:endirium_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "enhancedendgame:endirium_nugget"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_custom_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "enhancedendgame:endirium_nugget"
+    ]
+  }
+}
