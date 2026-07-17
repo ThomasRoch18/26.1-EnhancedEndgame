@@ -1,0 +1,45 @@
+{
+  "minecraft:recipes/misc/ingot_recipe": {
+    "criteria": {
+      "has_nugget": "2026-07-17 10:49:31 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-07-17 10:49:31 -0400"
+    },
+    "done": true
+  },
+  "enhancedendgame:recipes/misc/endirium_block": {
+    "criteria": {
+      "has_ingot": "2026-07-17 10:49:31 -0400"
+    },
+    "done": true
+  },
+  "enhancedendgame:recipes/misc/endirium_upgrade_smithing_template": {
+    "criteria": {
+      "has_template": "2026-07-17 10:49:31 -0400"
+    },
+    "done": true
+  },
+  "enhancedendgame:recipes/misc/endirium_nugget": {
+    "criteria": {
+      "has_custom_ore": "2026-07-17 10:49:31 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2026-07-17 10:49:31 -0400"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/ingot_from_block": {
+    "criteria": {
+      "has_block": "2026-07-17 10:49:31 -0400"
+    },
+    "done": true
+  },
+  "DataVersion": 4786
+}

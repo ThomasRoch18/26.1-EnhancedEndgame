@@ -1,5 +1,44 @@
 {
   "stats": {
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 9,
+      "minecraft:time_since_rest": 23941,
+      "minecraft:walk_one_cm": 18801,
+      "minecraft:leave_game": 27,
+      "minecraft:mob_kills": 1,
+      "minecraft:damage_taken": 600,
+      "minecraft:play_time": 59868,
+      "minecraft:jump": 20,
+      "minecraft:time_since_death": 23742,
+      "minecraft:drop": 7,
+      "minecraft:sprint_one_cm": 8858,
+      "minecraft:open_chest": 27,
+      "minecraft:interact_with_smithing_table": 1,
+      "minecraft:fall_one_cm": 6303,
+      "minecraft:total_world_time": 78775,
+      "minecraft:fly_one_cm": 393527,
+      "minecraft:crouch_one_cm": 97,
+      "minecraft:sneak_time": 700,
+      "minecraft:interact_with_blast_furnace": 5,
+      "minecraft:deaths": 1
+    },
+    "minecraft:mined": {
+      "enhancedendgame:endirium_ore": 6
+    },
+    "minecraft:dropped": {
+      "minecraft:iron_ingot": 14,
+      "enhancedendgame:endirium_upgrade_smithing_template": 1,
+      "minecraft:saddle": 1,
+      "minecraft:gold_ingot": 5,
+      "minecraft:iron_leggings": 1,
+      "minecraft:emerald": 4
+    },
+    "minecraft:crafted": {
+      "enhancedendgame:endirium_nugget": 3,
+      "enhancedendgame:endirium_ingot": 2,
+      "enhancedendgame:endirium_upgrade_smithing_template": 2,
+      "minecraft:air": 0
+    },
     "minecraft:picked_up": {
       "minecraft:iron_leggings": 1,
       "enhancedendgame:endirium_ingot": 3,
@@ -26,56 +65,19 @@
       "minecraft:sculk_catalyst": 1,
       "minecraft:sculk_sensor": 1,
       "minecraft:flint_and_steel": 8,
+      "minecraft:bookshelf": 18,
       "minecraft:diamond_pickaxe": 3,
       "minecraft:ender_eye": 16,
       "minecraft:crafting_table": 2,
       "minecraft:end_portal_frame": 4,
+      "minecraft:enchanting_table": 2,
       "minecraft:netherite_pickaxe": 4,
       "enhancedendgame:endirium_ore": 15,
       "minecraft:ender_pearl": 1,
       "minecraft:blast_furnace": 1
     },
-    "minecraft:crafted": {
-      "enhancedendgame:endirium_nugget": 3,
-      "enhancedendgame:endirium_ingot": 2,
-      "enhancedendgame:endirium_upgrade_smithing_template": 2,
-      "minecraft:air": 0
-    },
-    "minecraft:mined": {
-      "enhancedendgame:endirium_ore": 6
-    },
     "minecraft:killed": {
       "minecraft:ender_dragon": 1
-    },
-    "minecraft:custom": {
-      "minecraft:interact_with_crafting_table": 9,
-      "minecraft:time_since_rest": 18403,
-      "minecraft:walk_one_cm": 17902,
-      "minecraft:leave_game": 25,
-      "minecraft:mob_kills": 1,
-      "minecraft:damage_taken": 600,
-      "minecraft:play_time": 54330,
-      "minecraft:jump": 19,
-      "minecraft:time_since_death": 18204,
-      "minecraft:drop": 7,
-      "minecraft:sprint_one_cm": 8858,
-      "minecraft:open_chest": 27,
-      "minecraft:interact_with_smithing_table": 1,
-      "minecraft:fall_one_cm": 6303,
-      "minecraft:total_world_time": 73183,
-      "minecraft:fly_one_cm": 393527,
-      "minecraft:crouch_one_cm": 97,
-      "minecraft:sneak_time": 700,
-      "minecraft:interact_with_blast_furnace": 5,
-      "minecraft:deaths": 1
-    },
-    "minecraft:dropped": {
-      "minecraft:iron_ingot": 14,
-      "enhancedendgame:endirium_upgrade_smithing_template": 1,
-      "minecraft:saddle": 1,
-      "minecraft:gold_ingot": 5,
-      "minecraft:iron_leggings": 1,
-      "minecraft:emerald": 4
     }
   },
   "DataVersion": 4786

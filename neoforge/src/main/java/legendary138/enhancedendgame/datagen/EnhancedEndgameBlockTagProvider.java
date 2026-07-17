@@ -1,6 +1,5 @@
 package legendary138.enhancedendgame.datagen;
 
-import com.jcraft.jorbis.Block;
 import legendary138.enhancedendgame.Constants;
 import legendary138.enhancedendgame.init.ModBlocks;
 import net.minecraft.core.HolderLookup;
@@ -10,8 +9,8 @@ import net.neoforged.neoforge.common.data.BlockTagsProvider;
 
 import java.util.concurrent.CompletableFuture;
 
-public class EnhancedEndgameTagProvider extends BlockTagsProvider {
-    public EnhancedEndgameTagProvider(PackOutput output, CompletableFuture<HolderLookup.Provider> lookupProvider) {
+public class EnhancedEndgameBlockTagProvider extends BlockTagsProvider {
+    public EnhancedEndgameBlockTagProvider(PackOutput output, CompletableFuture<HolderLookup.Provider> lookupProvider) {
         super(output, lookupProvider, Constants.MOD_ID);
     }
 

@@ -23,6 +23,13 @@ public class EnhancedEndgameEnglishLanguageProvider extends LanguageProvider {
         add(ModItems.ENDIRIUM_BLOCK_ITEM.get(), "Endirium Block");
         add(ModItems.ENDIRIUM_NUGGET.get(), "Endirium Nugget");
 
+        add(ModItems.ENDIRIUM_SWORD.get(), "Endirium Sword");
+        add(ModItems.ENDIRIUM_PICKAXE.get(), "Endirium Pickaxe");
+        add(ModItems.ENDIRIUM_SHOVEL.get(), "Endirium Shovel");
+        add(ModItems.ENDIRIUM_AXE.get(), "Endirium Axe");
+        add(ModItems.ENDIRIUM_HOE.get(), "Endirium Hoe");
+        add(ModItems.ENDIRIUM_SPEAR.get(), "Endirium Spear");
+
         add(ModBlocks.ENDIRIUM_ORE.get(), "Endirium Ore");
         add(ModBlocks.ENDIRIUM_BLOCK.get(), "Endirium Block");
 
