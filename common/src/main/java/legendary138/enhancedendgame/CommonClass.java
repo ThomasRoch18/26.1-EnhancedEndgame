@@ -4,6 +4,7 @@ import legendary138.enhancedendgame.init.ModBlocks;
 import legendary138.enhancedendgame.init.ModCreativeTabs;
 import legendary138.enhancedendgame.init.ModItems;
 import legendary138.enhancedendgame.services.Services;
+import legendary138.enhancedendgame.worldgen.EnhancedEndgameWorldgen;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.item.Items;
 
@@ -34,5 +35,6 @@ public class CommonClass {
         ModItems.load();
         ModBlocks.load();
         ModCreativeTabs.load();
+        EnhancedEndgameWorldgen.load();
     }
 }

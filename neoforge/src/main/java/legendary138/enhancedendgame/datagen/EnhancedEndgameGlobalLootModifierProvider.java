@@ -30,7 +30,7 @@ public final class EnhancedEndgameGlobalLootModifierProvider
                 new AddItemModifier(
                         new LootItemCondition[]{
                                 LootTableIdCondition.builder(BuiltInLootTables.END_CITY_TREASURE.identifier()).build(),
-                                LootItemRandomChanceCondition.randomChance(.10F).build()
+                                LootItemRandomChanceCondition.randomChance(.25F).build()
                         },
                         ModItems.ENDIRIUM_UPGRADE_SMITHING_TEMPLATE.get()
                 )

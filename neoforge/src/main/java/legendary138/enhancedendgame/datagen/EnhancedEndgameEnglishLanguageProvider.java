@@ -20,25 +20,10 @@ public class EnhancedEndgameEnglishLanguageProvider extends LanguageProvider {
         add(ModItems.ENDIRIUM_INGOT.get(), "Endirium Ingot");
 
         add(ModItems.ENDIRIUM_UPGRADE_SMITHING_TEMPLATE.get(), "Endirium Upgrade");
-        add(
-                "item.enhancedendgame.endirium_upgrade_smithing_template.applies_to",
-                "Netherite Equipment"
-        );
-
-        add(
-                "item.enhancedendgame.endirium_upgrade_smithing_template.ingredients",
-                "Endirium Ingot"
-        );
-
-        add(
-                "item.enhancedendgame.endirium_upgrade_smithing_template.base_slot_description",
-                "Add Netherite armor, weapon, or tool"
-        );
-
-        add(
-                "item.enhancedendgame.endirium_upgrade_smithing_template.addition_slot_description",
-                "Add Endirium Ingot"
-        );
+        add("item.enhancedendgame.endirium_upgrade_smithing_template.applies_to", "Netherite Equipment");
+        add("item.enhancedendgame.endirium_upgrade_smithing_template.ingredients", "Endirium Ingot");
+        add("item.enhancedendgame.endirium_upgrade_smithing_template.base_slot_description", "Add Netherite armor, weapon, or tool");
+        add("item.enhancedendgame.endirium_upgrade_smithing_template.addition_slot_description", "Add Endirium Ingot");
 
         add(ModItems.ENDIRIUM_ORE_ITEM.get(), "Endirium Ore");
         add(ModItems.ENDIRIUM_BLOCK_ITEM.get(), "Endirium Block");
@@ -50,6 +35,11 @@ public class EnhancedEndgameEnglishLanguageProvider extends LanguageProvider {
         add(ModItems.ENDIRIUM_AXE.get(), "Endirium Axe");
         add(ModItems.ENDIRIUM_HOE.get(), "Endirium Hoe");
         add(ModItems.ENDIRIUM_SPEAR.get(), "Endirium Spear");
+
+        add(ModItems.ENDIRIUM_HELMET.get(), "Endirium Helmet");
+        add(ModItems.ENDIRIUM_CHESTPLATE.get(), "Endirium Chestplate");
+        add(ModItems.ENDIRIUM_LEGGINGS.get(), "Endirium Leggings");
+        add(ModItems.ENDIRIUM_BOOTS.get(), "Endirium Boots");
 
         add(ModBlocks.ENDIRIUM_ORE.get(), "Endirium Ore");
         add(ModBlocks.ENDIRIUM_BLOCK.get(), "Endirium Block");

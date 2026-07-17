@@ -30,7 +30,7 @@ particles:0
 reducedDebugInfo:false
 renderClouds:"true"
 cloudRange:64
-renderDistance:16
+renderDistance:18
 simulationDistance:12
 screenEffectScale:1.0
 soundDevice:""
@@ -167,7 +167,7 @@ key_key.debug.profilingChart:key.keyboard.1
 key_key.debug.fpsCharts:key.keyboard.2
 key_key.debug.networkCharts:key.keyboard.3
 key_key.debug.lightmapTexture:key.keyboard.4
-soundCategory_master:1.0
+soundCategory_master:0.49337748344370863
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

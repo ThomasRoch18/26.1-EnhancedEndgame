@@ -37,5 +37,12 @@ public class EnhancedEndgameItemTagProvider extends ItemTagsProvider {
         tag(ItemTags.DURABILITY_ENCHANTABLE).add(ModItems.ENDIRIUM_PICKAXE.get()).add(ModItems.ENDIRIUM_SHOVEL.get()).add(ModItems.ENDIRIUM_AXE.get()).add(ModItems.ENDIRIUM_HOE.get())
                                             .add(ModItems.ENDIRIUM_SWORD.get()).add(ModItems.ENDIRIUM_SPEAR.get());
 
+        // Armor Tags
+        tag(ItemTags.ARMOR_ENCHANTABLE).add(ModItems.ENDIRIUM_HELMET.get()).add(ModItems.ENDIRIUM_CHESTPLATE.get()).add(ModItems.ENDIRIUM_LEGGINGS.get()).add(ModItems.ENDIRIUM_BOOTS.get());
+        tag(ItemTags.HEAD_ARMOR_ENCHANTABLE).add(ModItems.ENDIRIUM_HELMET.get());
+        tag(ItemTags.CHEST_ARMOR_ENCHANTABLE).add(ModItems.ENDIRIUM_CHESTPLATE.get());
+        tag(ItemTags.LEG_ARMOR_ENCHANTABLE).add(ModItems.ENDIRIUM_LEGGINGS.get());
+        tag(ItemTags.FOOT_ARMOR_ENCHANTABLE).add(ModItems.ENDIRIUM_BOOTS.get());
+
     }
 }

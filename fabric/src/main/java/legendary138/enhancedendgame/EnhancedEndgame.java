@@ -1,6 +1,7 @@
 package legendary138.enhancedendgame;
 
 import legendary138.enhancedendgame.loot.FabricLootTableModifiers;
+import legendary138.enhancedendgame.worldgen.EnhancedEndgameFabricWorldgen;
 import net.fabricmc.api.ModInitializer;
 
 public class EnhancedEndgame implements ModInitializer {
@@ -16,5 +17,6 @@ public class EnhancedEndgame implements ModInitializer {
         Constants.LOG.info("Hello Fabric world!");
         CommonClass.init();
         FabricLootTableModifiers.register();
+        EnhancedEndgameFabricWorldgen.load();
     }
 }

@@ -14,6 +14,8 @@ public final class EnhancedEndgameDatagen {
         event.createProvider(EnhancedEndgameLootTableProvider::new);
         event.createProvider(EnhancedEndgameRecipeProvider.Runner::new);
         event.createProvider(EnhancedEndgameItemTagProvider::new);
+        event.createProvider(EnhancedEndgameEquipmentAssetProvider::new);
+        event.createProvider(EnhancedEndgameWorldgenProvider::new);
     }
 
     public static void onGatherServerData(GatherDataEvent.Server event) {

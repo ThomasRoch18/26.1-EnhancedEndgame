@@ -1,0 +1,21 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:ender_eye": 11
+    },
+    "minecraft:custom": {
+      "minecraft:open_chest": 7,
+      "minecraft:time_since_rest": 7852,
+      "minecraft:walk_one_cm": 1033,
+      "minecraft:total_world_time": 3961,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 220064,
+      "minecraft:crouch_one_cm": 28,
+      "minecraft:sneak_time": 209,
+      "minecraft:play_time": 3926,
+      "minecraft:jump": 2,
+      "minecraft:time_since_death": 3926
+    }
+  },
+  "DataVersion": 4786
+}

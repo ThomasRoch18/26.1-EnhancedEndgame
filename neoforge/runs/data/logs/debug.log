@@ -1,51 +1,55 @@
-[17Jul2026 12:03:41.135] [main/INFO] [net.neoforged.fml.startup.Entrypoint/]: JVM Uptime at startup: 105ms
-[17Jul2026 12:03:41.141] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Starting FancyModLoader version 11.0.3 (CLIENT in DEV)
-[17Jul2026 12:03:41.141] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Game directory: C:\MCMods\26.1-EnhancedEndgame\neoforge\runs\data
-[17Jul2026 12:03:41.180] [main/INFO] [net.neoforged.fml.loading.EarlyServiceDiscovery/]: Found 2 early service jars (out of 107) in 17ms
-[17Jul2026 12:03:41.181] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Early Services:
-[17Jul2026 12:03:41.181] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - C:/Users/Owner/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/11.0.3/3f76babf6fa2bbeb3c8390ce0aad2f44f53cbe47/loader-11.0.3.jar
-[17Jul2026 12:03:41.182] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - C:/Users/Owner/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/earlydisplay/11.0.3/8c620a52ec9cd3296b13a453d6229ac2617a9a5e/earlydisplay-11.0.3.jar
-[17Jul2026 12:03:41.186] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Not loading early display in headless mode.
-[17Jul2026 12:03:41.209] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.GameLocator/]: Detected a joined NeoForge and Minecraft configuration. Applying filtering...
-[17Jul2026 12:03:41.272] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.InDevFolderLocator/CORE]: Got mod coordinates enhancedendgame%%C:\MCMods\26.1-EnhancedEndgame\neoforge\build\classes\java\main;enhancedendgame%%C:\MCMods\26.1-EnhancedEndgame\neoforge\build\resources\main from env
-[17Jul2026 12:03:41.375] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
-[17Jul2026 12:03:41.377] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+[17Jul2026 16:09:57.152] [main/INFO] [net.neoforged.fml.startup.Entrypoint/]: JVM Uptime at startup: 102ms
+[17Jul2026 16:09:57.159] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Starting FancyModLoader version 11.0.3 (CLIENT in DEV)
+[17Jul2026 16:09:57.159] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Game directory: C:\MCMods\26.1-EnhancedEndgame\neoforge\runs\data
+[17Jul2026 16:09:57.198] [main/INFO] [net.neoforged.fml.loading.EarlyServiceDiscovery/]: Found 2 early service jars (out of 107) in 16ms
+[17Jul2026 16:09:57.198] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Early Services:
+[17Jul2026 16:09:57.199] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - C:/Users/Owner/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/11.0.3/3f76babf6fa2bbeb3c8390ce0aad2f44f53cbe47/loader-11.0.3.jar
+[17Jul2026 16:09:57.200] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - C:/Users/Owner/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/earlydisplay/11.0.3/8c620a52ec9cd3296b13a453d6229ac2617a9a5e/earlydisplay-11.0.3.jar
+[17Jul2026 16:09:57.203] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Not loading early display in headless mode.
+[17Jul2026 16:09:57.225] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.GameLocator/]: Detected a joined NeoForge and Minecraft configuration. Applying filtering...
+[17Jul2026 16:09:57.287] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.InDevFolderLocator/CORE]: Got mod coordinates enhancedendgame%%C:\MCMods\26.1-EnhancedEndgame\neoforge\build\classes\java\main;enhancedendgame%%C:\MCMods\26.1-EnhancedEndgame\neoforge\build\resources\main from env
+[17Jul2026 16:09:57.387] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[17Jul2026 16:09:57.389] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
      Mod List:
 		Name Version (Mod Id)
 
 		Enhanced Endgame 0.1.0 (enhancedendgame)
 		Minecraft 26.1 (minecraft)
 		NeoForge 26.1.0.1-beta (neoforge)
-[17Jul2026 12:03:41.499] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Owner/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/80fc3a9f592673cea87f4cd702f87991c6c9fe4d/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=FML Env=CLIENT
-[17Jul2026 12:03:41.520] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Plugins:
-[17Jul2026 12:03:41.521] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - C:/Users/Owner/.gradle/caches/modules-2/files-2.1/net.neoforged/neoforge/26.1.0.1-beta/ef713b81fdcc723ad4c9d2ac2e7d4173f8dbdbd6/neoforge-26.1.0.1-beta-universal.jar > net.neoforged.neoforge-coremods-26.1.0.1-beta.jar
-[17Jul2026 12:03:41.575] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Building game content classloader:
+[17Jul2026 16:09:57.503] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Owner/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/80fc3a9f592673cea87f4cd702f87991c6c9fe4d/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=FML Env=CLIENT
+[17Jul2026 16:09:57.523] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Plugins:
+[17Jul2026 16:09:57.524] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - C:/Users/Owner/.gradle/caches/modules-2/files-2.1/net.neoforged/neoforge/26.1.0.1-beta/ef713b81fdcc723ad4c9d2ac2e7d4173f8dbdbd6/neoforge-26.1.0.1-beta-universal.jar > net.neoforged.neoforge-coremods-26.1.0.1-beta.jar
+[17Jul2026 16:09:57.575] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Building game content classloader:
  - enhancedendgame (composite(folder(C:/MCMods/26.1-EnhancedEndgame/neoforge/build/classes/java/main), folder(C:/MCMods/26.1-EnhancedEndgame/neoforge/build/resources/main)))
  - minecraft (composite(filtered(jar(C:/MCMods/26.1-EnhancedEndgame/neoforge/build/moddev/artifacts/minecraft-patched-26.1.0.1-beta.jar)), filtered(jar(C:/MCMods/26.1-EnhancedEndgame/neoforge/build/moddev/artifacts/minecraft-patched-26.1.0.1-beta.jar))))
  - mixinextras.neoforge (jar(C:/Users/Owner/.gradle/caches/modules-2/files-2.1/net.neoforged/neoforge/26.1.0.1-beta/ef713b81fdcc723ad4c9d2ac2e7d4173f8dbdbd6/neoforge-26.1.0.1-beta-universal.jar > mixinextras-neoforge-0.5.3.jar))
  - neoforge (composite(filtered(jar(C:/Users/Owner/.gradle/caches/modules-2/files-2.1/net.neoforged/neoforge/26.1.0.1-beta/ef713b81fdcc723ad4c9d2ac2e7d4173f8dbdbd6/neoforge-26.1.0.1-beta-universal.jar))))
  - net.neoforged.fml.generated (empty(VirtualJar/net.neoforged.fml.generated))
-[17Jul2026 12:03:41.584] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Built game content classloader in 15ms
-[17Jul2026 12:03:41.820] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
-[17Jul2026 12:03:44.363] [main/INFO] [net.neoforged.neoforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [enhancedendgame]
-[17Jul2026 12:03:44.377] [modloading-worker-0/INFO] [Enhanced Endgame/]: Hello NeoForge world!
-[17Jul2026 12:03:44.381] [modloading-worker-0/INFO] [Enhanced Endgame/]: Hello from Common init on NeoForge! we are currently in a development environment!
-[17Jul2026 12:03:44.381] [modloading-worker-0/INFO] [Enhanced Endgame/]: The ID for diamonds is minecraft:diamond
-[17Jul2026 12:03:44.381] [modloading-worker-0/INFO] [Enhanced Endgame/]: Hello to Enhanced Endgame
-[17Jul2026 12:03:44.385] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 26.1.0.1-beta, for MC 26.1
-[17Jul2026 12:03:44.772] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Model Definitions - enhancedendgame
-[17Jul2026 12:03:44.809] [main/INFO] [net.minecraft.data.DataGenerator/]: Model Definitions - enhancedendgame finished after 36 ms
-[17Jul2026 12:03:44.809] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Languages: en_us for mod: enhancedendgame
-[17Jul2026 12:03:44.818] [main/INFO] [net.minecraft.data.DataGenerator/]: Languages: en_us for mod: enhancedendgame finished after 8 ms
-[17Jul2026 12:03:44.818] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id enhancedendgame
-[17Jul2026 12:03:44.822] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id enhancedendgame finished after 4 ms
-[17Jul2026 12:03:44.822] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[17Jul2026 12:03:44.830] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 7 ms
-[17Jul2026 12:03:44.830] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Enhanced Endgame Recipes
-[17Jul2026 12:03:44.850] [main/INFO] [net.minecraft.data.DataGenerator/]: Enhanced Endgame Recipes finished after 18 ms
-[17Jul2026 12:03:44.850] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id enhancedendgame
-[17Jul2026 12:03:44.851] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id enhancedendgame finished after 0 ms
-[17Jul2026 12:03:44.851] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 78 ms
-[17Jul2026 12:03:44.855] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 64, old count: 56, new count: 64, removed stale: 0, written: 8
-[17Jul2026 12:03:44.855] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Closing FML Loader 2642e189
-[17Jul2026 12:03:44.856] [main/INFO] [net.neoforged.fml.ModLoader/]: Clearing ModLoader
+[17Jul2026 16:09:57.585] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Built game content classloader in 16ms
+[17Jul2026 16:09:57.825] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[17Jul2026 16:10:00.376] [main/INFO] [net.neoforged.neoforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [enhancedendgame]
+[17Jul2026 16:10:00.391] [modloading-worker-0/INFO] [Enhanced Endgame/]: Hello NeoForge world!
+[17Jul2026 16:10:00.395] [modloading-worker-0/INFO] [Enhanced Endgame/]: Hello from Common init on NeoForge! we are currently in a development environment!
+[17Jul2026 16:10:00.395] [modloading-worker-0/INFO] [Enhanced Endgame/]: The ID for diamonds is minecraft:diamond
+[17Jul2026 16:10:00.395] [modloading-worker-0/INFO] [Enhanced Endgame/]: Hello to Enhanced Endgame
+[17Jul2026 16:10:00.398] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 26.1.0.1-beta, for MC 26.1
+[17Jul2026 16:10:00.848] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Model Definitions - enhancedendgame
+[17Jul2026 16:10:00.891] [main/INFO] [net.minecraft.data.DataGenerator/]: Model Definitions - enhancedendgame finished after 41 ms
+[17Jul2026 16:10:00.891] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Languages: en_us for mod: enhancedendgame
+[17Jul2026 16:10:00.899] [main/INFO] [net.minecraft.data.DataGenerator/]: Languages: en_us for mod: enhancedendgame finished after 8 ms
+[17Jul2026 16:10:00.900] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id enhancedendgame
+[17Jul2026 16:10:00.903] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id enhancedendgame finished after 3 ms
+[17Jul2026 16:10:00.904] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[17Jul2026 16:10:00.911] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 7 ms
+[17Jul2026 16:10:00.911] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Enhanced Endgame Recipes
+[17Jul2026 16:10:00.927] [main/INFO] [net.minecraft.data.DataGenerator/]: Enhanced Endgame Recipes finished after 15 ms
+[17Jul2026 16:10:00.927] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id enhancedendgame
+[17Jul2026 16:10:00.928] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id enhancedendgame finished after 0 ms
+[17Jul2026 16:10:00.928] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Equipment Asset Definitions
+[17Jul2026 16:10:00.931] [main/INFO] [net.minecraft.data.DataGenerator/]: Equipment Asset Definitions finished after 2 ms
+[17Jul2026 16:10:00.931] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Registries
+[17Jul2026 16:10:00.933] [main/INFO] [net.minecraft.data.DataGenerator/]: Registries finished after 2 ms
+[17Jul2026 16:10:00.933] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 84 ms
+[17Jul2026 16:10:00.938] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 89, old count: 89, new count: 89, removed stale: 0, written: 0
+[17Jul2026 16:10:00.939] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Closing FML Loader 76ba026a
+[17Jul2026 16:10:00.939] [main/INFO] [net.neoforged.fml.ModLoader/]: Clearing ModLoader

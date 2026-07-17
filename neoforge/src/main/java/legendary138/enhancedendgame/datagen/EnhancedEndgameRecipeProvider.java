@@ -24,6 +24,7 @@ public class EnhancedEndgameRecipeProvider extends RecipeProvider {
     @Override
     protected void buildRecipes() {
         var itemLookup = this.registries.lookupOrThrow(net.minecraft.core.registries.Registries.ITEM);
+
         ShapedRecipeBuilder.shaped(itemLookup, RecipeCategory.MISC, ENDIRIUM_UPGRADE_SMITHING_TEMPLATE.get(), 2)
                 .pattern("#M#")
                 .pattern("#I#")
@@ -72,7 +73,7 @@ public class EnhancedEndgameRecipeProvider extends RecipeProvider {
                     Ingredient.of(ENDIRIUM_INGOT.get()),
                     RecipeCategory.COMBAT,
                     ModItems.ENDIRIUM_SWORD.get())
-                .unlocks("has_template_smithing", has(ENDIRIUM_UPGRADE_SMITHING_TEMPLATE.get()))
+                .unlocks("has_ingot", has(ENDIRIUM_INGOT.get()))
                 .save(this.output, "endirium_sword_recipe");
         net.minecraft.data.recipes.SmithingTransformRecipeBuilder.smithing(
                         Ingredient.of(ENDIRIUM_UPGRADE_SMITHING_TEMPLATE.get()),
@@ -80,7 +81,7 @@ public class EnhancedEndgameRecipeProvider extends RecipeProvider {
                         Ingredient.of(ENDIRIUM_INGOT.get()),
                         RecipeCategory.COMBAT,
                         ModItems.ENDIRIUM_PICKAXE.get())
-                .unlocks("has_template_smithing", has(ENDIRIUM_UPGRADE_SMITHING_TEMPLATE.get()))
+                .unlocks("has_ingot", has(ENDIRIUM_INGOT.get()))
                 .save(this.output, "endirium_pickaxe_recipe");
         net.minecraft.data.recipes.SmithingTransformRecipeBuilder.smithing(
                         Ingredient.of(ENDIRIUM_UPGRADE_SMITHING_TEMPLATE.get()),
@@ -88,7 +89,7 @@ public class EnhancedEndgameRecipeProvider extends RecipeProvider {
                         Ingredient.of(ENDIRIUM_INGOT.get()),
                         RecipeCategory.COMBAT,
                         ModItems.ENDIRIUM_SHOVEL.get())
-                .unlocks("has_template_smithing", has(ENDIRIUM_UPGRADE_SMITHING_TEMPLATE.get()))
+                .unlocks("has_ingot", has(ENDIRIUM_INGOT.get()))
                 .save(this.output, "endirium_shovel_recipe");
         net.minecraft.data.recipes.SmithingTransformRecipeBuilder.smithing(
                         Ingredient.of(ENDIRIUM_UPGRADE_SMITHING_TEMPLATE.get()),
@@ -96,7 +97,7 @@ public class EnhancedEndgameRecipeProvider extends RecipeProvider {
                         Ingredient.of(ENDIRIUM_INGOT.get()),
                         RecipeCategory.COMBAT,
                         ModItems.ENDIRIUM_AXE.get())
-                .unlocks("has_template_smithing", has(ENDIRIUM_UPGRADE_SMITHING_TEMPLATE.get()))
+                .unlocks("has_ingot", has(ENDIRIUM_INGOT.get()))
                 .save(this.output, "endirium_axe_recipe");
         net.minecraft.data.recipes.SmithingTransformRecipeBuilder.smithing(
                         Ingredient.of(ENDIRIUM_UPGRADE_SMITHING_TEMPLATE.get()),
@@ -104,7 +105,7 @@ public class EnhancedEndgameRecipeProvider extends RecipeProvider {
                         Ingredient.of(ENDIRIUM_INGOT.get()),
                         RecipeCategory.COMBAT,
                         ModItems.ENDIRIUM_HOE.get())
-                .unlocks("has_template_smithing", has(ENDIRIUM_UPGRADE_SMITHING_TEMPLATE.get()))
+                .unlocks("has_ingot", has(ENDIRIUM_INGOT.get()))
                 .save(this.output, "endirium_hoe_recipe");
         net.minecraft.data.recipes.SmithingTransformRecipeBuilder.smithing(
                         Ingredient.of(ENDIRIUM_UPGRADE_SMITHING_TEMPLATE.get()),
@@ -112,8 +113,41 @@ public class EnhancedEndgameRecipeProvider extends RecipeProvider {
                         Ingredient.of(ENDIRIUM_INGOT.get()),
                         RecipeCategory.COMBAT,
                         ModItems.ENDIRIUM_SPEAR.get())
-                .unlocks("has_template_smithing", has(ENDIRIUM_UPGRADE_SMITHING_TEMPLATE.get()))
+                .unlocks("has_ingot", has(ENDIRIUM_INGOT.get()))
                 .save(this.output, "endirium_spear_recipe");
+
+        net.minecraft.data.recipes.SmithingTransformRecipeBuilder.smithing(
+                        Ingredient.of(ENDIRIUM_UPGRADE_SMITHING_TEMPLATE.get()),
+                        Ingredient.of(NETHERITE_HELMET),
+                        Ingredient.of(ENDIRIUM_INGOT.get()),
+                        RecipeCategory.COMBAT,
+                        ModItems.ENDIRIUM_HELMET.get())
+                .unlocks("has_ingot", has(ENDIRIUM_INGOT.get()))
+                .save(this.output, "endirium_helmet_recipe");
+        net.minecraft.data.recipes.SmithingTransformRecipeBuilder.smithing(
+                        Ingredient.of(ENDIRIUM_UPGRADE_SMITHING_TEMPLATE.get()),
+                        Ingredient.of(NETHERITE_CHESTPLATE),
+                        Ingredient.of(ENDIRIUM_INGOT.get()),
+                        RecipeCategory.COMBAT,
+                        ModItems.ENDIRIUM_CHESTPLATE.get())
+                .unlocks("has_ingot", has(ENDIRIUM_INGOT.get()))
+                .save(this.output, "endirium_chestplate_recipe");
+        net.minecraft.data.recipes.SmithingTransformRecipeBuilder.smithing(
+                        Ingredient.of(ENDIRIUM_UPGRADE_SMITHING_TEMPLATE.get()),
+                        Ingredient.of(NETHERITE_LEGGINGS),
+                        Ingredient.of(ENDIRIUM_INGOT.get()),
+                        RecipeCategory.COMBAT,
+                        ModItems.ENDIRIUM_LEGGINGS.get())
+                .unlocks("has_ingot", has(ENDIRIUM_INGOT.get()))
+                .save(this.output, "endirium_leggings_recipe");
+        net.minecraft.data.recipes.SmithingTransformRecipeBuilder.smithing(
+                        Ingredient.of(ENDIRIUM_UPGRADE_SMITHING_TEMPLATE.get()),
+                        Ingredient.of(NETHERITE_BOOTS),
+                        Ingredient.of(ENDIRIUM_INGOT.get()),
+                        RecipeCategory.COMBAT,
+                        ModItems.ENDIRIUM_BOOTS.get())
+                .unlocks("has_ingot", has(ENDIRIUM_INGOT.get()))
+                .save(this.output, "endirium_boots_recipe");
     }
 
     public static class Runner extends RecipeProvider.Runner {

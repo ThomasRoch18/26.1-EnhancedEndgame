@@ -3,6 +3,7 @@ package legendary138.enhancedendgame.init;
 import legendary138.enhancedendgame.services.Services;
 import legendary138.enhancedendgame.services.util.RegistryHandle;
 import net.minecraft.world.item.*;
+import net.minecraft.world.item.equipment.ArmorType;
 
 import java.security.Provider;
 
@@ -41,4 +42,13 @@ public class ModItems {
     public static final RegistryHandle<Item> ENDIRIUM_SPEAR = Services.REGISTRY.registerItem("endirium_spear",
             properties -> new Item(properties.spear(ModToolMaterials.ENDIRIUM_TOOL_MATERIAL, 1.25F, 1.325F,
                     0.3F, 2.0F, 8.0F, 4.5F, 5.1F, 7.5F, 4.6F).fireResistant()));
+
+    public static final RegistryHandle<Item> ENDIRIUM_HELMET = Services.REGISTRY.registerItem("endirium_helmet",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.ENDIRIUM_ARMOR_MATERIAL, ArmorType.HELMET)));
+    public static final RegistryHandle<Item> ENDIRIUM_CHESTPLATE = Services.REGISTRY.registerItem("endirium_chestplate",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.ENDIRIUM_ARMOR_MATERIAL, ArmorType.CHESTPLATE)));
+    public static final RegistryHandle<Item> ENDIRIUM_LEGGINGS = Services.REGISTRY.registerItem("endirium_leggings",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.ENDIRIUM_ARMOR_MATERIAL, ArmorType.LEGGINGS)));
+    public static final RegistryHandle<Item> ENDIRIUM_BOOTS = Services.REGISTRY.registerItem("endirium_boots",
+            properties -> new Item(properties.humanoidArmor(ModArmorMaterials.ENDIRIUM_ARMOR_MATERIAL, ArmorType.BOOTS)));
 }

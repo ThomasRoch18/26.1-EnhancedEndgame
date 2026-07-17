@@ -11,6 +11,8 @@ public final class ModItemTags {
 
     public static final TagKey<Item> ENDIRIUM_TOOL_MATERIAL_REPAIR_ITEMS = create("endirium_tool_material_repair_items");
 
+    public static final TagKey<Item> ENDIRIUM_ARMOR_MATERIAL_REPAIR_ITEMS = create("endirium_armor_material_repair_items");
+
     public static TagKey<Item> create(String name) {
         return TagKey.create(Registries.ITEM, Constants.id(name));
     }
